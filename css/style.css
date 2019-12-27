@@ -1,0 +1,112 @@
+
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/* Main Section Styled */
+.element-section{
+	width: 100%;
+	background: #fff;
+}
+.element-contain{
+	max-width: 1140px;
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+}.bg-color-1{
+	background: #f2f2f2;
+}.bg-color-2{
+	background: #2222;
+}
+
+.title{
+	width: 100%;
+	background: #1967d2;
+	padding: 20px 0px;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+/*grid design 01*/
+.grid-container-1{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.grid-item-1{
+	background: #ddd;
+	padding: 15px;
+}
+.grid-item-1:nth-child(odd){
+	background: #ccc;
+}
+
+
+
+
+
+/*grid design 02*/
+.grid-container-2{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 15px;
+	box-sizing: content-box;
+}
+
+.grid-item-2{
+	background: #ddd;
+	padding: 15px;
+}
+.grid-item-2:nth-child(odd){
+	background: #ccc;
+}
+
+
+
+
+
+
+/*grid design 03*/
+.grid-container-3{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.grid-item-3{
+	background: #ddd;
+	padding: 15px;
+}
+.grid-item-3:nth-child(2){
+	background: #ccc;
+}
+.grid-item-3:nth-child(3){
+	background: #f2f2;
+}
+
+
+
+
+
+/*grid design 04*/
+.grid-container-4{
+	display: grid;
+	grid-template-columns: 30% 40% 30%;
+}
+
+.grid-item-4{
+	background: #ddd;
+	padding: 15px;
+}
+.grid-item-4:nth-child(2){
+	background: #ccc;
+}
+.grid-item-4:nth-child(3){
+	background: #f2f2;
+}
